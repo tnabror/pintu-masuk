@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
     plugin = {"pretty", "html:build/result.html"},
     features = "src/test/resources/features",
     stepNotifications = true,
-    tags = "@login and @android",
+    tags = "",
     publish = true
 )
 public class CucumberRunner {
